@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_top {
+
+    height: 80px;
+    background-color: brown;
+    padding: 10px 60px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.i_left {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.base-ic i,
+span {
+    padding: 0px 20px;
+}
+
+.right {
+    display: flex;
+}

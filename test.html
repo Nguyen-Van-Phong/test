@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1></h1>
+<h1></h1>
+<h1 onclick="name()" id="btn">ok</h1>
+<h1></h1>
+<h1 id="demo"></h1>
+
+<body>
+    <script>
+        var color = 'red';
+        var btn = document.getElementById('btn')
+        btn.style.cursor = 'pointer'
+        btn.style.textAlign = 'center'
+        function name() {
+            var namecar = "oto"
+            var size = '3.2'
+            var h1 = document.getElementById('demo')
+
+            h1.innerHTML = color;
+            h1.style.color = 'red'
+            h1.style.textAlign = 'center'
+        }
+        // // console.log("ok")
+        function car() {
+            // document.write("chiec xe" + name + "co mau" + color + "co chieu dai" + size + "m")
+
+            console.log(`chiec xe ${namecar} có màu ${color} có chiều dài ${size} m`);
+        }
+        console.log(car());
+
+    </script>
+</body>
+
+</html>
